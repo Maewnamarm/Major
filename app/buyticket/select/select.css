@@ -105,7 +105,7 @@
     border: 2.5px solid #FFD700;
   }
   .rankButton1.selected,.rankButton2.selected,.rankButton3.selected {
-  background-color: #007bff; 
+  background-color: #FFD700; 
   color: white; 
 }
   .screen {
