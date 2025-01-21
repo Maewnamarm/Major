@@ -85,7 +85,7 @@
   }
   .rankButton1 {
     font-size: 12px;
-    margin-right: 350px;
+    margin-right: 445px; /*ปรับระยะของการเลือกที่นั่ง */
     height: 60px;
     width: 70px;
     border: 2.5px solid #FFD700;
@@ -116,6 +116,7 @@
     align-items: center;
     border: 3px solid #FFD700;
     margin: auto; 
+    margin-bottom: 20px;
   }
   
   .confirmSection {
@@ -142,3 +143,64 @@
     color: #000000;
     border: 2.5px solid #000000;
   }
+
+  .seat {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .seatrank {
+    display: flex;
+    padding: 10px;
+    justify-content: left;
+  }
+  .nameseatf {
+    margin-right: 240px;
+  }
+  .seatf {
+    font-size: 10px;
+    margin-right: 20px;
+    height: 25px;
+    width: 25px;
+    border: 1.5px solid #FFD700;
+    border-radius: 5px;
+  }
+  .seatf.selected {
+    background-color: #FFD700; 
+    color: white; 
+  }
+
+  .secondselectseat {
+    display: flex;
+    align-items: center; /* จัดกึ่งกลางแนวตั้ง */
+    gap: 10px; /* เพิ่มช่องว่างระหว่างสองบรรทัด */
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .secondselectseat p {
+    margin: 0; /* ลบค่า margin เริ่มต้นของ <p> */
+  }
+
+  .selectedseat1 {
+    height: 40px;
+    width: 150px;
+    border: 1.5px solid #FFD700;
+    margin: auto; 
+    display: flex; /* ใช้ Flexbox */
+    align-items: center; /* จัดกึ่งกลางแนวตั้ง */
+    justify-content: center;
+  }
+  .selectedseat2 {
+    height: 40px;
+    width: 150px;
+    color: #ffffff;
+    background-color: #D6BB56;
+    border: 1.5px solid #222;
+    margin: auto; 
+    display: flex; /* ใช้ Flexbox */
+    align-items: center; /* จัดกึ่งกลางแนวตั้ง */
+    justify-content: center;
+  }
+  
+  
